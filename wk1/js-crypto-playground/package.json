@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc && node ./out/index.js",
-    "bin": "tsc && node ./out/bin.js",
+    "start:addresses": "tsc && node ./out/addresses.js",
+    "start:hashing": "tsc && node ./out/hashing.js",
     "test": "mocha -r ts-node/register test/**/*.spec.ts"
   },
   "author": "stickykeys",
